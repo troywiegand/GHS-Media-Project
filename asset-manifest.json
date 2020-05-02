@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/GHS-Media-Project/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/GHS-Media-Project/static/js/main.ccca37d1.chunk.js",
+    "main.js.map": "/GHS-Media-Project/static/js/main.ccca37d1.chunk.js.map",
+    "runtime-main.js": "/GHS-Media-Project/static/js/runtime-main.9473d48c.js",
+    "runtime-main.js.map": "/GHS-Media-Project/static/js/runtime-main.9473d48c.js.map",
+    "static/js/2.c62cdcbf.chunk.js": "/GHS-Media-Project/static/js/2.c62cdcbf.chunk.js",
+    "static/js/2.c62cdcbf.chunk.js.map": "/GHS-Media-Project/static/js/2.c62cdcbf.chunk.js.map",
+    "index.html": "/GHS-Media-Project/index.html",
+    "precache-manifest.d91d61e3098c552392e233bed2bbfb5f.js": "/GHS-Media-Project/precache-manifest.d91d61e3098c552392e233bed2bbfb5f.js",
+    "service-worker.js": "/GHS-Media-Project/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/GHS-Media-Project/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.c62cdcbf.chunk.js.LICENSE.txt": "/GHS-Media-Project/static/js/2.c62cdcbf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9473d48c.js",
+    "static/js/2.c62cdcbf.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.ccca37d1.chunk.js"
+  ]
+}
