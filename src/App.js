@@ -4,11 +4,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import NN from './NN';
 import FLOSS from './FLOSS';
 import ABOUT from './ABOUT';
+import { Typography } from '@material-ui/core';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -59,9 +59,12 @@ export default function SimpleTabs() {
   };
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} style={{backgroundColor:'rgb(24,26,27)'}}>
       <AppBar position="static">
-        <Tabs value={value} onChange={handleChange}  aria-label="simple tabs example" centered>
+      <Typography style={{textAlign:"center"}} variant='h4'>Freedom of Software and Internet Access</Typography>
+
+        <Tabs value={value} onChange={handleChange}  style={{marginTop: '-=15px'}} aria-label="simple tabs example" centered>
+
           <Tab label="Net Neutrality" {...a11yProps(0)} />
           <Tab label="Free And Open Source Software" {...a11yProps(1)} />
           <Tab label="About" {...a11yProps(2)} />

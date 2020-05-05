@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App style={{backgroundColor:'rgb(24,26,27)'}}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
